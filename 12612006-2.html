@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+<style>
+body{
+    background-color: rgb(236, 244, 244);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(1, 16, 16);    
+
+}
+.navbar{
+   background-color:rgb(144, 235, 241);
+  padding: 10px 20px;
+  text-align: center;
+  
+
+}
+nav ul{
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    
+  
+}
+
+h2{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+.pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px ;   
+}
+.first{
+    display: table;
+    table-layout: auto; 
+    width: 25px;
+    height: 50px;
+    margin: 20px;
+
+}
+.text{
+    background-color: white;
+    border: 2px;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0px ;
+}
+.text h1{
+    margin-top: 0;
+    color: rgb(2,94,97);
+}
+.text p{
+    margin-bottom: 0;
+}
+ul{
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+li{
+    display: inline;
+    margin-right: 20px;
+    color: black;
+    text-align: center;
+    
+}
+li a{
+    color: black;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.skills h2{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.skills-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 1000px;
+
+    
+}
+.skills-text{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 0px;
+    margin: 30px;
+    min-width: 150px;
+
+}
+.skills-text img{
+    width:30px;
+    height:30px;
+    object-fit: contain;
+}
+.Projects-section h2{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+   
+
+}
+.projects-box{
+    max-width: 1000px;
+    margin:0 auto 50px auto;
+    padding: 0 20px;
+     gap: 30px;
+}
+.projects-text{
+    background-color: white;
+    border: 2px solid;
+    border-radius: 8px;
+    padding:40px;
+    box-shadow: 4px 4px 0;
+
+}
+.projects-text h3 {
+    margin-top: 0;
+    color: rgb(2, 94, 97);
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 28px;
+}
+.projects-text h4 {
+    color: black;
+    margin: 10px 0;
+    font-family: 'Gill Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.contact{
+    max-width: 1000px;
+    margin:0 auto 50px auto;
+    padding: 0 20px;
+}
+.contact-box{
+     background-color: white;
+    border: 2px solid;
+    border-radius: 8px;
+    
+    padding:40px;
+    box-shadow: 4px 4px 0;
+}
+.contact-text p{
+    color: black;
+    margin: 10px 0;
+    font-family: 'Gill Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+</style>
+</head>
+<body>
+      <nav class="navbar">
+      <ul class="nav">
+        <li class="click"><a href="#about-section">HOME</a></li>
+        <li class="click"><a href="#about-section">ABOUT</a></li>
+        <li class="click"><a href="#skills-section">SKILLS</a></li>
+        <li class="click"><a href="#project-section">PROJECTS</a></li>
+
+        <li class="CLICK"><a href="#project-section">CONTACT</a></li>
+    </ul>
+    </nav>
+    <h2 id="home-section">AKSH AGGARWAL</h2>
+    <div id="about-section"class="profile">
+        <img class="pic" src="profilepic.png"alt="profile pic">
+        <div class="text">
+            <h2>About ME</h2>
+
+            <p>Hi! I'm Aksh Aggarwal, a first-year B.Tech Information Technology student at IIIT Sonepat.
+
+I'm an enthusiastic learner with an interest in programming, problem-solving and technology. I have basic knowledge of C, C++, DSA, Python, HTML, CSS and MySQL.
+
+Currently, I'm focusing on strengthening my programming fundamentals, improving my problem-solving abilities and learning new concepts like Data Structures and Algorithms.
+    
+
+            </p>
+        </div>
+        
+    </div>
+    <div id="skills-section"class="skills">
+            <h2>SKILLS</h2>
+            <div class="skills-box">
+                <div class="skills-text">
+                    <img src="Unknown.png" alter="C++ LOGO">
+                    <p>C++</p>
+                </div>
+                
+                <div class="skills-text">
+                    <img src="images.jpeg" alter="DSA LOGO">
+                    <p>DSA</p>
+                </div>
+                <div class="skills-text">
+                    <img src="Unknown 2.jpeg" alter="HTML5 AND CSS IMAGE">
+                    <p>HTML5+CSS</p>
+                </div>
+                 <div class="skills-text">
+                    <img src="Unknown.jpeg" alter="PYTHON IMAGE">
+                    <p>PYTHON</p>
+                </div>
+                <div class="skills-text">
+                 <p>MYSQL</p>
+                </div>
+
+            </div>
+            
+    </div>
+    <div id="project-section" class="Projects-section">
+        <h2>PROJECTS</h2>
+        <div class="projects-box">
+        
+        <div class="projects-text">
+            <h3>RuralBiz AI</h3>
+            <h4>WHAT DOES IT DO</h4>
+            <p>It is a AI tool build for the rural people to help in finances and business advisory.IT tells people about the business according to location and nearby established business.Also it tells the person about how much loan or emi they should take according to their skills and resources alongwith the government schemes 
+                
+          </p>
+          
+
+          <h3> HANGMAN USING PYTHON</h3>
+            <h4>WHAT DOES IT DO</h4>
+            <p>It is a game built using only python you have to guess letters in each turn and if its there in the word it shows its location in the word and goes to next guess and if it is not then starts drawing the hangman we get 6 wrong guess.A very fun  game to play it consists of some basic MYSQL which is used to make score board in it. </p>
+            
+        </div>
+       
+        </div>
+    </div>
+
+
+    <div id="class-section"class="contact">
+        <h2>CONTACT ME</h2>
+        <div class="contact-box">
+            <div class="contact-text">
+                <p>EMAIL ID:<a href ="mailto:akshaggarwal65@gmail.com">akshaggarwal65@gmail.com</a></p>
+                <p>github:<a href= " https://github.com/Akshaggarwal45">GITHUB</a> </p>
+                <p>Linkedin:<a href= "https://www.linkedin.com/feed/ ">LinkdeIn</a></p>
+
+                
+            </div>
+        </div>
+    </div>
+    
+
+    
+  
+</body>
+
+</html>
